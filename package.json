@@ -1,8 +1,7 @@
 {
   "name": "github-scraper-cd",
   "version": "0.0.1",
-  "description": "This is a basic continuous deployment system that will scrape
-  a public github repo page to see if there have been any new commits to master. If changes are identified, it will kick off a script",
+  "description": "This is a basic continuous deployment system that will scrape a public github repo page to see if there have been any new commits to master. If changes are identified, it will kick off a script",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
