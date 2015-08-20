@@ -79,7 +79,7 @@ function startLoop() {
         );
       }
     });
-  }, 2000);
+  }, 30000);
 }
 
 tryGetLastShaAndStart();
