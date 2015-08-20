@@ -1,6 +1,5 @@
 'use strict';
 
-var request = require('request');
 var sys = require('sys');
 var exec = require('child_process').exec;
 var fs = require('fs');
@@ -39,7 +38,8 @@ function startLoop() {
             function (error, stdout, stderr) {
               if (error !== null) {
                 throw new Error('unknown operational error');
-              } 
+              }
+            }
           );
         }
       }
